@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+    #gameArea{
+        border: 10px solid cadetblue;
+    }
+
+    body{
+        height: 100vh;
+        background: linear-gradient(
+            rgba(34, 193, 200, 1) 0%,
+            rgba(69, 123, 44, 1) 100%
+        );
+        text-align: center;
+        overflow: hidden; /*hide scrollbars*/
+    }
+    h1{
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+    }
+</style>
+
+
+</head>
+<body>
+    <h1>Finn's Green Blob!
+        controls: Arrow keys, escape to the right!
+    </h1>
+</body>
+   <canvas id="gameArea" width=800 height=600></canvas>
+   <script src="index.js"></script>
+</html>
